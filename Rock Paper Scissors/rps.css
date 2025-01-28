@@ -1,0 +1,50 @@
+body {
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+
+}
+
+header {
+    margin-bottom: 20px;
+    color: violet
+}
+
+h1 {
+    font-size: 40px;
+    
+}
+
+h2 {
+    font-size: 30px;
+}
+
+#rps {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+button {
+    font-size: 35px;
+    background-color: rgb(203, 162, 204);
+    cursor: pointer;
+    padding: 5px 5px;
+    border: 2px solid violet;
+    transition-duration: 0.4;
+    border-radius: 5px;
+
+}
+
+button:hover {
+    border: 2px solid white;
+    background-color: lightseagreen;
+}
+
+#result {
+    color: lightblue;
+    font-size: 18px;
+}
